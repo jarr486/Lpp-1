@@ -72,5 +72,6 @@ llamar nueva_linea
 escriba ("el numero de personas que eligen el HABLAR es "), opcion5
 llamar nueva_linea
 escriba ("el numero de personas que eligen el CENA ROMANTICA es "), opcion6
+llamar nueva_linea
 
 fin
