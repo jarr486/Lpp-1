@@ -1,0 +1,76 @@
+Entero opcion1,opcion2,opcion3,opcion4,opcion5,opcion6,QPersonas,Ciclo,Opcion,masculino,femenino
+cadena [20] Genero
+inicio
+
+escriba ("cuantas personas van a realizar la encuesta ")
+lea QPersonas
+opcion1<-0
+opcion2<-0
+opcion3<-0
+opcion4<-0
+opcion5<-0
+opcion6<-0
+masculino<-0
+femenino<-0
+para Ciclo<-1 hasta QPersonas haga
+    escriba ("1.Cine")
+    llamar nueva_linea
+    escriba ("2 comer")
+    llamar nueva_linea
+    escriba ("3. Realizar Deportes")
+    llamar nueva_linea
+    escriba ("4. Gym")
+    llamar nueva_linea
+    escriba ("5. Hablar")
+    llamar nueva_linea
+    escriba ("6. Cena Romantica")
+    llamar nueva_linea
+    Escriba ("Cual opcion elige? ")
+    lea opcion
+    
+    si (opcion=1) entonces
+    opcion1<-opcion1 +1
+    fin si
+    si (opcion=2) entonces
+    opcion2<-opcion2 +1
+    fin si
+    si (opcion=3) entonces
+    opcion3<-opcion3 +1
+    fin si
+    si (opcion=4) entonces
+    opcion4<-opcion4 +1
+    fin si
+    si (opcion=5) entonces
+    opcion5<-opcion5 +1
+    fin si
+    si (opcion=6) entonces
+    opcion6<-opcion6 +1
+    fin si
+    
+llamar nueva_linea
+    escriba ("su Genero es Masculino o Femenino ")
+    lea genero
+    si (genero="masculino")entonces
+        masculino<-masculino +1
+    sino 
+        femenino<-femenino +1
+    fin si
+fin para
+
+escriba ("El numero de personas femenino es "), femenino
+llamar nueva_linea
+escriba ("El numero de personas masculino es "), masculino
+llamar nueva_linea
+escriba ("el numero de personas que eligen el CINE es "), opcion1
+llamar nueva_linea
+escriba ("el numero de personas que eligen el COMER es "), opcion2
+llamar nueva_linea
+escriba ("el numero de personas que eligen el REALIZAR DEPORTES es "), opcion3
+llamar nueva_linea
+escriba ("el numero de personas que eligen el GYM es "), opcion4
+llamar nueva_linea
+escriba ("el numero de personas que eligen el HABLAR es "), opcion5
+llamar nueva_linea
+escriba ("el numero de personas que eligen el CENA ROMANTICA es "), opcion6
+
+fin
